@@ -1,7 +1,7 @@
 {
-    "id": "ps.comfy.bridge",
-    "name": "ComfyUI Bridge",
-    "version": "1.0.0",
+    "id": "7887a1af",
+    "name": "ComfyUI Connector",
+    "version": "1.1.0",
     "main": "index.html",
     "manifestVersion": 6,
     "host": {
@@ -11,9 +11,9 @@
     "entrypoints": [
         {
             "type": "panel",
-            "id": "ps.comfy.bridge.panel",
+            "id": "comfyui.connector.panel",
             "label": {
-                "default": "ComfyUI Bridge"
+                "default": "ComfyUI Connector"
             },
             "minimumSize": {
                 "width": 240,
@@ -30,7 +30,25 @@
             "preferredFloatingSize": {
                 "width": 300,
                 "height": 550
-            }
+            },
+            "icons": [
+                {
+                    "width": 23,
+                    "height": 23,
+                    "path": "icons/icon_23.png",
+                    "scale": [1],
+                    "theme": ["all"],
+                    "species": ["pluginList"]
+                },
+                {
+                    "width": 23,
+                    "height": 23,
+                    "path": "icons/icon_23@2x.png",
+                    "scale": [2],
+                    "theme": ["all"],
+                    "species": ["pluginList"]
+                }
+            ]
         }
     ],
     "requiredPermissions": {
@@ -43,11 +61,67 @@
     },
     "icons": [
         {
+            "width": 23,
+            "height": 23,
+            "path": "icons/icon_23.png",
+            "scale": [1],
+            "theme": ["all"],
+            "species": ["pluginList"]
+        },
+        {
+            "width": 23,
+            "height": 23,
+            "path": "icons/icon_23@2x.png",
+            "scale": [2],
+            "theme": ["all"],
+            "species": ["pluginList"]
+        },
+        {
             "width": 48,
             "height": 48,
-            "path": "icons/icon.png",
-            "scale": [1, 2],
-            "theme": ["darkest", "dark", "medium", "lightest", "light", "all"],
+            "path": "icons/icon_48.png",
+            "scale": [1],
+            "theme": ["all"],
+            "species": ["pluginList"]
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "icons/icon_48@2x.png",
+            "scale": [2],
+            "theme": ["all"],
+            "species": ["pluginList"]
+        },
+        {
+            "width": 96,
+            "height": 96,
+            "path": "icons/icon_96.png",
+            "scale": [1],
+            "theme": ["all"],
+            "species": ["pluginList"]
+        },
+        {
+            "width": 96,
+            "height": 96,
+            "path": "icons/icon_96@2x.png",
+            "scale": [2],
+            "theme": ["all"],
+            "species": ["pluginList"]
+        },
+        {
+            "width": 144,
+            "height": 144,
+            "path": "icons/icon_144.png",
+            "scale": [1],
+            "theme": ["all"],
+            "species": ["pluginList"]
+        },
+        {
+            "width": 144,
+            "height": 144,
+            "path": "icons/icon_144@2x.png",
+            "scale": [2],
+            "theme": ["all"],
             "species": ["pluginList"]
         }
     ]
