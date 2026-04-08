@@ -1,7 +1,7 @@
 [project]
 name = "comfy-link"
 description = "Bridge Adobe Photoshop and ComfyUI by sending canvas and mask data to ComfyUI workflows and returning the result back to Photoshop."
-version = "1.2.1"
+version = "1.2.2"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 classifiers = [
